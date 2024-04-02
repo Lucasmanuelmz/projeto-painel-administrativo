@@ -1,201 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link href="./styles/style.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel administrativo - projeto desenvolvido num ambente de aprendizado de css e html intermediario</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Admin Dashboard
+    </title>
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <div class="search-form">
-                <div class="search-container">
-                <label for="search-input">
-                    <button type="button" class="btn-search">
-                         <img src="./assets/icons/magnify.png" alt="search icon">
-                    </button>
-                    <input type="search" name="search" id="search-input">
-                </label>
-                <div class="perfile">
-                    <img class="photo" src="./assets/images/charlesdeluvio-pOUA8Xay514-unsplash.jpg" alt="Pet to profile">
-                    <div class="greeting">
-                        <p>Hi there,</p><span>Lucas Manuel(@lucas)</span>
-                    </div>
-                </div>
+      <header class="header">
+        <div class="search-form">
+          <div class="search-container">
+            <label class="label-search" for="search-input">
+              <button type="button" class="btn-search">
+                <img
+                  class="icon"
+                  src="./assets/icons/magnify.png"
+                  alt="search icon"
+                />
+              </button>
+              <input type="search" name="search" id="search-input" />
+            </label>
+            <div class="greetings-area">
+              <img
+                class="photo"
+                src="./assets/images/charles.jpg"
+                alt="Pet to profile"
+              />
+              <div class="greeting">
+                <p>Hi there,</p>
+                <span>Lucas Manuel(@lucas)</span>
+              </div>
             </div>
-                <div class="icon">
-                    <div class="perfil-photo">
-                        <img src="./assets/icons/bell-badge-custom.png" alt="sing" class="icon">
-                        <img src="./assets/images/charlesdeluvio-pOUA8Xay514-unsplash.jpg" alt="">
-                        <span class="name-perfil">Lucas Manuel</span>
-                    </div>
-                    <div class="btn-action">
-                        <button type="submit">New</button>
-                        <button type="submit">Upload</button>
-                        <button type="submit">Share</button>
-                    </div>
-                </div>
+          </div>
+          <div class="">
+            <div class="profile-photo">
+              <img
+                src="./assets/icons/bell-badge-custom.png"
+                alt="sing"
+                class="icon" 
+              />
+              <img
+                class="icon-image"
+                src="./assets/images/charles.jpg"
+                alt=""
+              />
+              <span class="name-perfil">Lucas Manuel</span>
+            </div>
+            <div class="btn-action">
+              <button class="button" type="submit">New</button>
+              <button class="button" type="submit">Upload</button>
+              <button class="button" type="submit">Share</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <aside class="sidebar">
+        <div class="logo-dashboard">
+          <img id="icon-dashboard" src="./assets/icons/dashboard.png" alt="" />
 
+          <span>Dashboard</span>
+        </div>
+        <div class="nav-aside">
+          <ul>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/home-account-custom.png"
+                alt=""
+              />Home
+            </li>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/face-man-profile-custom.png"
+                alt=""
+              />Profile
+            </li>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/message-custom.png"
+                alt=""
+              />Messages
+            </li>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/history-custom.png"
+                alt=""
+              />History
+            </li>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/calendar-check-custom.png"
+                alt="./"
+              />Tasks
+            </li>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/forum-outline-custom.png"
+                alt=""
+              />Communities
+            </li>
+          </ul>
+        </div>
+        <div class="settings-side">
+          <ul>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/cog-custom.png"
+                alt=""
+              />Settings
+            </li>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/lifebuoy-custom.png"
+                alt=""
+              />Support
+            </li>
+            <li>
+              <img
+                class="icon"
+                src="./assets/icons/security-custom.png"
+                alt=""
+              />Privacy
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <main class="article">
+        <article>
+          <h2 class="title">You projects</h2>
+        <div class="content-container">
+        
+          <div class="items">
+            <h2>Voluptates qui quas</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet
+              iusto voluptates qui quas corrupti a aliquam harum, distinctio
+              dicta ipsam, ullam impedit unde nisi culpa at reprehenderit autem
+              tempore?
+            </p>
+            <div class="share-images">
+              <img src="./assets/icons/star-check-custom.png" alt="" />
+              <img src="./assets/icons/eye-custom.png" alt="" />
+              <img src="./assets/icons/share-variant-custom.png" alt="" />
             </div>
-           
-        </header>
-        <aside class="sidebar">
-            <div class="logo-dashboard">
-            <img src="./assets/icons/view-dashboard-custom.png" alt="">
-                
-                <span>Dashboard</span>
+          </div>
+          <div class="items">
+            <h2>Voluptates qui quas</h2>
+            <p>
+              ipsum dolor sit amet consectetur adipisicing elit. Laborum illo id
+              excepturi amet repellendus, architecto nihil aliquam similique
+              fugit commodi ipsam earum maiores accusamus beatae quia sint,
+              cumque unde labore?
+            </p>
+            <div class="share-images">
+              <img src="./assets/icons/star-check-custom.png" alt="" />
+              <img src="./assets/icons/eye-custom.png" alt="" />
+              <img src="./assets/icons/share-variant-custom.png" alt="" />
             </div>
-            <div class="nav-aside">
-                <ul>
-                    <li><img src="./assets/icons/home-account-custom.png" alt="">Home</li>
-                    <li><img src="./assets/icons/face-man-profile-custom.png" alt="">Profile</li>
-                    <li><img src="./assets/icons/message-custom.png" alt="">Messages</li>
-                    <li><img src="./assets/icons/history-custom.png" alt="">History</li>
-                    <li><img src="./assets/icons/calendar-check-custom.png" alt="./">Tasks</li>
-                    <li><img src="./assets/icons/forum-outline-custom.png" alt="">Communities</li>
-                </ul>
+          </div>
+          <div class="items">
+            <h2>Voluptates qui quas</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+              minus cupiditate, ducimus eveniet neque animi quam quia
+              consequatur voluptate distinctio impedit deserunt, nisi in
+              mollitia sequi architecto soluta, ut officiis.
+            </p>
+            <div class="share-images">
+              <img src="./assets/icons/star-check-custom.png" alt="" />
+              <img src="./assets/icons/eye-custom.png" alt="" />
+              <img src="./assets/icons/share-variant-custom.png" alt="" />
             </div>
-            <div class="settings-side">
-                <ul>
-                    <li><img src="./assets/icons/cog-custom.png" alt="">Settings</li>
-                    <li><img src="./assets/icons/lifebuoy-custom.png" alt="">Support</li>
-                    <li><img src="./assets/icons/security-custom.png" alt="">Privacy</li>
-                </ul>
+          </div>
+          <div class="items">
+            <h2>Voluptates qui quas</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              culpa corrupti et dolore voluptate cumque sit, libero mollitia
+              molestias assumenda nisi doloribus, molestiae autem vel sapiente
+              quaerat accusantium aspernatur dolor!
+            </p>
+            <div class="share-images">
+              <img src="./assets/icons/star-check-custom.png" alt="" />
+              <img src="./assets/icons/eye-custom.png" alt="" />
+              <img src="./assets/icons/share-variant-custom.png" alt="" />
             </div>
-        </aside>
-        <main class="article">
-            <h2>You projects</h2>
-            <div class="content-container">
-                
-                <div class="items">
-                    <h2>Voluptates qui quas</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cum amet iusto voluptates qui quas corrupti a aliquam harum, distinctio dicta 
-                    ipsam, ullam impedit unde nisi culpa at reprehenderit autem tempore?</p>
-                     <div class="sahre-images">
-                        <img src="./assets/icons/star-check-custom.png" alt="">
-                        <img src="./assets/icons/eye-custom.png" alt="">
-                        <img src="./assets/icons/share-variant-custom.png" alt="">
-                     </div>
-                </div>
-                <div class="items">
-                    <h2>Voluptates qui quas</h2>
-                    <p>ipsum dolor sit amet consectetur adipisicing elit. 
-                    Laborum illo id excepturi amet repellendus, architecto nihil aliquam similique 
-                    fugit commodi ipsam earum maiores accusamus beatae quia sint, cumque unde labore?</p>
-                    <div class="sahre-images">
-                        <img src="./assets/icons/star-check-custom.png" alt="">
-                        <img src="./assets/icons/eye-custom.png" alt="">
-                        <img src="./assets/icons/share-variant-custom.png" alt="">
-                     </div>
-                </div>
-                <div class="items">
-                    <h2>Voluptates qui quas</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Facilis minus cupiditate, ducimus eveniet neque animi quam quia consequatur voluptate 
-                    distinctio impedit deserunt, nisi in mollitia sequi architecto soluta, ut officiis.</p>
-                    <div class="sahre-images">
-                        <img src="./assets/icons/star-check-custom.png" alt="">
-                        <img src="./assets/icons/eye-custom.png" alt="">
-                        <img src="./assets/icons/share-variant-custom.png" alt="">
-                     </div>
-                </div>
-                <div class="items">
-                    <h2>Voluptates qui quas</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa corrupti 
-                    et dolore voluptate cumque sit, libero mollitia molestias assumenda nisi doloribus, 
-                    molestiae autem vel sapiente quaerat accusantium aspernatur dolor!</p>
-                    <div class="sahre-images">
-                        <img src="./assets/icons/star-check-custom.png" alt="">
-                        <img src="./assets/icons/eye-custom.png" alt="">
-                        <img src="./assets/icons/share-variant-custom.png" alt="">
-                     </div>
-                </div>
-                <div class="items">
-                    <h2>Voluptates qui quas</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae impedit 
-                    excepturi odit molestias dolor nemo nulla pariatur est dolorum, asperiores sint, 
-                    enim quod amet optio, sapiente eum unde repudiandae? Itaque.</p>
-                    <div class="sahre-images">
-                        <img src="./assets/icons/star-check-custom.png" alt="">
-                        <img src="./assets/icons/eye-custom.png" alt="">
-                        <img src="./assets/icons/share-variant-custom.png" alt="">
-                     </div>
-                </div>
-                <div class="items">
-                    <h2>Voluptates qui quas</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex corrupti natus 
-                    fuga vero eos libero illum. Non mollitia impedit ea laudantium accusamus quis corrupti 
-                    nihil asperiores blanditiis, tempore sapiente fugit?</p>
-                    <div class="sahre-images">
-                        <img src="./assets/icons/star-check-custom.png" alt="">
-                        <img src="./assets/icons/eye-custom.png" alt="">
-                        <img src="./assets/icons/share-variant-custom.png" alt="">
-                     </div>
-                </div>
+          </div>
+          <div class="items">
+            <h2>Voluptates qui quas</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Molestiae impedit excepturi odit molestias dolor nemo nulla
+              pariatur est dolorum, asperiores sint, enim quod amet optio,
+              sapiente eum unde repudiandae? Itaque.
+            </p>
+            <div class="share-images">
+              <img src="./assets/icons/star-check-custom.png" alt="" />
+              <img src="./assets/icons/eye-custom.png" alt="" />
+              <img src="./assets/icons/share-variant-custom.png" alt="" />
             </div>
-            <h2>Announcements</h2>
-            <div class="more-info">
-                    <div class="details">
-                        <div class="card">
-                         <h3>Netflix</h3>
-                         <p>Quem não conhec Espanha lançou sua campanha “Solo pasa en Netflix”tórias dos protagonistas dos próximos lançamentos da plataforma</p>
-                        </div>
-                        <div class="card">
-                            <h3>Coca-cola</h3>
-                            <p>A Coca-Cola nunca para de surpreender! A empresa desenvolveu romper com o que está estabelecido, tanto na música como no dia a dia.</p>
-                        </div>
-                        <div class="card">
-                            <h3>Ikea</h3>
-                            <p>A Ikea é a emprm que convida o espectador a fazer o que sempre sonhou, por exemplo, montar o negócio dos seus sonhos na sua própria casa.</p>
-                        </div>
-                    </div>
-                    <div>
-                    <h2>Tranding</h2>
-                    <div class="trending">
-                        <div class="card-one">
-                            <img class="perfil" src="./assets/images/perfil1.jpg" alt="">
-                            <div>
-                                <span>@João Aguido</span><br/>
-                                <p>Entrou recentemente</p>
-                            </div>
-                        </div>
-                        <div class="card-two">
-                            <img class="perfil" src="./assets/images/perfil2.jpg" alt="">
-                            <div>
-                            <span>@Antoninha Candeeiro</span><br />
-                            <p>Entrou à 3 dias</p>
-                           </div>
-                        </div>
-                        <div class="card-three">
-                            <img class="perfil" src="./assets/images/perfil3.jpg" alt="">
-                            <div>
-                            <span>@Cardo Melo</span>
-                            <p>Entrou a duas semanas</p>
-                           </div>
-                        </div>
-                        <div class="card-four">
-                            <img class="perfil" src="./assets/images/perfil4.jpg" alt="">
-                            <div>
-                            <span>@Vaquina Chauke</span><br />
-                            <p>Entrou à um mês</p>
-                            </div>
-                        </div>
-                        <div class="card-five">
-                            
-                            <img class="perfil" src="./assets/images/charlesdeluvio-pOUA8Xay514-unsplash.jpg" alt="">
-                            <div>
-                            <span>@Adriano Chave</span><br />
-                            <p>Entrou a seis meses</p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+          </div>
+          <div class="items">
+            <h2>Voluptates qui quas</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
+              corrupti natus fuga vero eos libero illum. Non mollitia impedit ea
+              laudantium accusamus quis corrupti nihil asperiores blanditiis,
+              tempore sapiente fugit?
+            </p>
+            <div class="share-images">
+              <a href="#"><img src="./assets/icons/star-check-custom.png" alt="" /></a>
+              <a href="#"><img src="./assets/icons/eye-custom.png" alt="" /></a>
+              <a href="#"><img src="./assets/icons/share-variant-custom.png" alt="" /></a>
             </div>
-            
-        </main>
-        <footer class="footer">&copy;Lucas Manuel 2024</footer>
+          </div>
+        </div> 
+        </article>
+        <section class="new-container">
+        <section class="containerOne">
+        <h2 class="title">Announcements</h2>
+       
+        <div class="more-info">
+          <div class="details">
+            <div class="card">
+              <h3>Netflix</h3>
+              <p>
+                Quem não conhec Espanha lançou sua campanha “Solo pasa en
+                Netflix”tórias dos protagonistas dos próximos lançamentos da
+                plataforma
+              </p>
+            </div>
+            <div class="card special-card">
+              <h3>Coca-cola</h3>
+              <p>
+                A Coca-Cola nunca para de surpreender! A empresa desenvolveu
+                romper com o que está estabelecido, tanto na música como no dia
+                a dia.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Ikea</h3>
+              <p>
+                A Ikea é a emprm que convida o espectador a fazer o que sempre
+                sonhou, por exemplo, montar o negócio dos seus sonhos na sua
+                própria casa.
+              </p>
+            </div>
+            </div>
+          </section>
+          <section id="containerTwo">
+            <h2 id="title">Tranding</h2>
+            <div class="trending">
+              <div class="card-one">
+                <img class="img" src="./assets/images/perfil1.jpg" alt="" />
+                <div>
+                  <span>@João Aguido</span><br />
+                  <p>Entrou recentemente</p>
+                </div>
+              </div>
+              <div class="card-two">
+                <img class="img" src="./assets/images/perfil2.jpg" alt="" />
+                <div>
+                  <span>@Antoninha Candeeiro</span><br />
+                  <p>Entrou à 3 dias</p>
+                </div>
+              </div>
+              <div class="card-three">
+                <img class="img" src="./assets/images/perfil3.jpg" alt="" />
+                <div>
+                  <span>@Cardo Melo</span>
+                  <p>Entrou a duas semanas</p>
+                </div>
+              </div>
+              <div class="card-four">
+                <img class="img" src="./assets/images/perfil4.jpg" alt="" />
+                <div>
+                  <span>@Vaquina Chauke</span><br />
+                  <p>Entrou à um mês</p>
+                </div>
+              </div>
+              <div class="card-five">
+                <img class="img" src="./assets/images/charles.jpg" alt="" />
+                <div>
+                  <span>@Adriano Chave</span><br />
+                  <p>Entrou a seis meses</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        </section>
+      </main>
+      <footer class="footer">&copy;Lucas Manuel 2024</footer>
     </div>
-</body>
+  </body>
 </html>
