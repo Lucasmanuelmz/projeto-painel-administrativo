@@ -320,6 +320,11 @@ span {
     font-size: 16px;
 }
 
+a{
+    text-decoration: none;
+    color: #333;
+}
+
 .items:hover {
     animation: cardMove 60ms alternate ease-in-out forwards;
 }
